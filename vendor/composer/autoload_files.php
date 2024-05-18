@@ -55,4 +55,5 @@ return array(
     '04b6576f786ea6b5b4b577af08f8e4d1' => $vendorDir . '/symfony/polyfill-intl-messageformatter/bootstrap.php',
     '84245cb95409c51c4ae97f8e59da883a' => $vendorDir . '/flarum/core/src/helpers.php',
     'ad155f8f1cf0d418fe49e248db8c661b' => $vendorDir . '/react/promise/src/functions_include.php',
+    '8ae013b9213caf2e4e69cb8916bcd2bc' => $vendorDir . '/blomstra/web3/src/helpers.php',
 );

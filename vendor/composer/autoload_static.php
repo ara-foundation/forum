@@ -56,6 +56,7 @@ class ComposerStaticInit26e117448b7e4aff234b5ed0dbd68e1d
         '04b6576f786ea6b5b4b577af08f8e4d1' => __DIR__ . '/..' . '/symfony/polyfill-intl-messageformatter/bootstrap.php',
         '84245cb95409c51c4ae97f8e59da883a' => __DIR__ . '/..' . '/flarum/core/src/helpers.php',
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
+        '8ae013b9213caf2e4e69cb8916bcd2bc' => __DIR__ . '/..' . '/blomstra/web3/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -68,6 +69,10 @@ class ComposerStaticInit26e117448b7e4aff234b5ed0dbd68e1d
             's9e\\TextFormatter\\' => 18,
             's9e\\SweetDOM\\' => 13,
             's9e\\RegexpBuilder\\' => 18,
+        ),
+        'k' => 
+        array (
+            'kornrunner\\' => 11,
         ),
         'a' => 
         array (
@@ -116,6 +121,7 @@ class ComposerStaticInit26e117448b7e4aff234b5ed0dbd68e1d
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Config\\' => 25,
             'Staudenmeir\\EloquentEagerLimit\\' => 31,
+            'Sijad\\LaravelEcrecover\\' => 23,
             'Seld\\Signal\\' => 12,
             'Seld\\PharUtils\\' => 15,
             'Seld\\JsonLint\\' => 14,
@@ -248,6 +254,7 @@ class ComposerStaticInit26e117448b7e4aff234b5ed0dbd68e1d
         'B' => 
         array (
             'Brick\\Math\\' => 11,
+            'Blomstra\\Web3\\' => 14,
         ),
     );
 
@@ -267,6 +274,10 @@ class ComposerStaticInit26e117448b7e4aff234b5ed0dbd68e1d
         's9e\\RegexpBuilder\\' => 
         array (
             0 => __DIR__ . '/..' . '/s9e/regexp-builder/src',
+        ),
+        'kornrunner\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kornrunner/keccak/src',
         ),
         'axy\\sourcemap\\' => 
         array (
@@ -411,6 +422,10 @@ class ComposerStaticInit26e117448b7e4aff234b5ed0dbd68e1d
         'Staudenmeir\\EloquentEagerLimit\\' => 
         array (
             0 => __DIR__ . '/..' . '/staudenmeir/eloquent-eager-limit/src',
+        ),
+        'Sijad\\LaravelEcrecover\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sijad/laravel-ecrecover/src',
         ),
         'Seld\\Signal\\' => 
         array (
@@ -789,6 +804,10 @@ class ComposerStaticInit26e117448b7e4aff234b5ed0dbd68e1d
         'Brick\\Math\\' => 
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
+        ),
+        'Blomstra\\Web3\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/blomstra/web3/src',
         ),
     );
 

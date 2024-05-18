@@ -1,0 +1,54 @@
+.ConnectWalletModal {
+  &-walletKind {
+    --gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+
+    &-title {
+      font-weight: bold;
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--gap);
+    }
+  }
+}
+
+.PolkadotConnectWalletModal {
+  &-wallet {
+    padding: 12px 16px;
+    font-size: 1.1rem;
+    .Button--color-auto('button-inverted');
+
+    &, .Button-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+    }
+
+    &-indicator {
+      margin-left: auto;
+    }
+
+    &-logo img {
+      --size: 30px;
+      width: var(--size);
+      height: var(--size);
+    }
+  }
+
+  // Core issues
+  .Form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .Button--primary .Button-icon {
+    display: inline-block;
+  }
+}

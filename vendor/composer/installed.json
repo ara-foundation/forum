@@ -57,6 +57,79 @@
             "install-path": "../axy/backtrace"
         },
         {
+            "name": "blomstra/web3",
+            "version": "v0.1.8",
+            "version_normalized": "0.1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blomstra/flarum-ext-web3.git",
+                "reference": "6c6b46afa81d6880af9dbefe21bb0f70a54b4942"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blomstra/flarum-ext-web3/zipball/6c6b46afa81d6880af9dbefe21bb0f70a54b4942",
+                "reference": "6c6b46afa81d6880af9dbefe21bb0f70a54b4942",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ffi": "*",
+                "flarum/core": "^1.5.0",
+                "php": "^8.0",
+                "sijad/laravel-ecrecover": "^0.0.5"
+            },
+            "require-dev": {
+                "flarum/testing": "^1.0.0"
+            },
+            "time": "2023-01-06T17:44:14+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Web3",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-wallet",
+                        "backgroundColor": "#e3e7f1",
+                        "color": "#ff9045"
+                    }
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "backendTesting": true
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Blomstra\\Web3\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Team Blomstra",
+                    "email": "development@blomstra.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Web3 for Flarum",
+            "homepage": "https://blomstra.net",
+            "keywords": [
+                "flarum"
+            ],
+            "support": {
+                "issues": "https://github.com/blomstra/flarum-ext-web3/issues",
+                "source": "https://github.com/blomstra/flarum-ext-web3"
+            },
+            "install-path": "../blomstra/web3"
+        },
+        {
             "name": "brick/math",
             "version": "0.12.1",
             "version_normalized": "0.12.1.0",
@@ -5255,6 +5328,58 @@
             "install-path": "../justinrainbow/json-schema"
         },
         {
+            "name": "kornrunner/keccak",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kornrunner/php-keccak.git",
+                "reference": "433749d28e117fb97baf9f2631b92b5d9ab3c890"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kornrunner/php-keccak/zipball/433749d28e117fb97baf9f2631b92b5d9ab3c890",
+                "reference": "433749d28e117fb97baf9f2631b92b5d9ab3c890",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3",
+                "symfony/polyfill-mbstring": "^1.8"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.2"
+            },
+            "time": "2020-12-07T15:40:44+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "kornrunner\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Boris Momcilovic",
+                    "homepage": "https://github.com/kornrunner/php-keccak"
+                }
+            ],
+            "description": "Pure PHP implementation of Keccak",
+            "keywords": [
+                "keccak",
+                "sha-3",
+                "sha3-256"
+            ],
+            "support": {
+                "issues": "https://github.com/kornrunner/php-keccak/issues",
+                "source": "https://github.com/kornrunner/php-keccak/tree/1.1.0"
+            },
+            "install-path": "../kornrunner/keccak"
+        },
+        {
             "name": "laminas/laminas-diactoros",
             "version": "2.26.0",
             "version_normalized": "2.26.0.0",
@@ -8147,6 +8272,44 @@
                 "source": "https://github.com/Seldaek/signal-handler/tree/2.0.2"
             },
             "install-path": "../seld/signal-handler"
+        },
+        {
+            "name": "sijad/laravel-ecrecover",
+            "version": "v0.0.5",
+            "version_normalized": "0.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sijad/laravel-ecrecover.git",
+                "reference": "5cac992a5646e59552d1d679d72cf1e7221ac3cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sijad/laravel-ecrecover/zipball/5cac992a5646e59552d1d679d72cf1e7221ac3cd",
+                "reference": "5cac992a5646e59552d1d679d72cf1e7221ac3cd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gmp": "*",
+                "kornrunner/keccak": "^1.0",
+                "php": ">=7.1.0"
+            },
+            "time": "2021-11-04T08:46:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Sijad\\LaravelEcrecover\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Ecrecover functions of Ethereum written for Laravel.",
+            "support": {
+                "source": "https://github.com/sijad/laravel-ecrecover/tree/v0.0.5"
+            },
+            "install-path": "../sijad/laravel-ecrecover"
         },
         {
             "name": "staudenmeir/eloquent-eager-limit",

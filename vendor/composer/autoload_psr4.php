@@ -10,6 +10,7 @@ return array(
     's9e\\TextFormatter\\' => array($vendorDir . '/s9e/text-formatter/src'),
     's9e\\SweetDOM\\' => array($vendorDir . '/s9e/sweetdom/src'),
     's9e\\RegexpBuilder\\' => array($vendorDir . '/s9e/regexp-builder/src'),
+    'kornrunner\\' => array($vendorDir . '/kornrunner/keccak/src'),
     'axy\\sourcemap\\' => array($vendorDir . '/sycho/sourcemap/src'),
     'axy\\errors\\' => array($vendorDir . '/sycho/errors/src'),
     'axy\\codecs\\base64vlq\\' => array($vendorDir . '/sycho/codecs-base64vlq'),
@@ -46,6 +47,7 @@ return array(
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Symfony\\Component\\Config\\' => array($vendorDir . '/symfony/config'),
     'Staudenmeir\\EloquentEagerLimit\\' => array($vendorDir . '/staudenmeir/eloquent-eager-limit/src'),
+    'Sijad\\LaravelEcrecover\\' => array($vendorDir . '/sijad/laravel-ecrecover/src'),
     'Seld\\Signal\\' => array($vendorDir . '/seld/signal-handler/src'),
     'Seld\\PharUtils\\' => array($vendorDir . '/seld/phar-utils/src'),
     'Seld\\JsonLint\\' => array($vendorDir . '/seld/jsonlint/src/Seld/JsonLint'),
@@ -139,4 +141,5 @@ return array(
     'Carbon\\Doctrine\\' => array($vendorDir . '/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine'),
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
+    'Blomstra\\Web3\\' => array($vendorDir . '/blomstra/web3/src'),
 );
