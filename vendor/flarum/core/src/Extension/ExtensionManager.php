@@ -400,7 +400,7 @@ class ExtensionManager
     {
         $enabled = $this->config->get('extensions_enabled', true);
         
-        if ($enabled == null || $enabled == true) {
+        if ($enabled === null || $enabled === true) {
             return [];
         }
 
