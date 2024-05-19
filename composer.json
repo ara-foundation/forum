@@ -21,6 +21,7 @@
         "docs": "https://docs.flarum.org/"
     },
     "require": {
+        "acme/flarum-hello-world": "*@dev",
         "blomstra/web3": "v0.1.8",
         "flarum/approval": "*",
         "flarum/bbcode": "*",
@@ -44,5 +45,11 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/*"
+        }
+    ]
 }
