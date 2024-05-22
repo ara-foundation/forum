@@ -5,3 +5,4 @@ packages/hello-world/js/node_modules
 packages/hello-world/vendor
 vendor
 .vscode
+temp-vendor
