@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c51147808bf5f66b8347c9916b60312",
+    "content-hash": "6b59facd4393a3d49f470722e1a9f174",
     "packages": [
         {
             "name": "acme/flarum-hello-world",
@@ -289,6 +289,64 @@
                 }
             ],
             "time": "2023-10-01T12:35:29+00:00"
+        },
+        {
+            "name": "clarkwinkelmann/flarum-ext-formatted-banner",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clarkwinkelmann/flarum-ext-formatted-banner.git",
+                "reference": "e2dd043d88d81bc3384f6ee625adae1de3cb49ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clarkwinkelmann/flarum-ext-formatted-banner/zipball/e2dd043d88d81bc3384f6ee625adae1de3cb49ea",
+                "reference": "e2dd043d88d81bc3384f6ee625adae1de3cb49ea",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.2"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Formatted Banner",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-bullhorn",
+                        "backgroundColor": "#684ba6",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ClarkWinkelmann\\FormattedBanner\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Customizable welcome banner for Flarum",
+            "keywords": [
+                "banner",
+                "flarum"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/31152",
+                "issues": "https://github.com/clarkwinkelmann/flarum-ext-formatted-banner/issues",
+                "source": "https://github.com/clarkwinkelmann/flarum-ext-formatted-banner"
+            },
+            "time": "2022-07-04T10:06:12+00:00"
         },
         {
             "name": "components/font-awesome",

@@ -23,6 +23,7 @@
     "require": {
         "acme/flarum-hello-world": "*@dev",
         "blomstra/web3": "v0.1.8",
+        "clarkwinkelmann/flarum-ext-formatted-banner": "^1.0",
         "flarum/approval": "*",
         "flarum/bbcode": "*",
         "flarum/core": "^1.8",
