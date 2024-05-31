@@ -42,6 +42,7 @@
         "flarum/subscriptions": "*",
         "flarum/suspend": "*",
         "flarum/tags": "*",
+        "fof/follow-tags": "*",
         "fof/polls": "*"
     },
     "config": {
